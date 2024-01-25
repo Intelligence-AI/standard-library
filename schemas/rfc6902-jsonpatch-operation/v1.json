@@ -1,0 +1,77 @@
+{
+  "$id": "https://schemas.intelligence.ai/std/rfc6902-jsonpatch-operation/v1.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RFC 6902 JSON Patch operation",
+  "$comment": "https://datatracker.ietf.org/doc/html/rfc6902/#section-4",
+  "anyOf": [
+    {
+      "type": "object",
+      "required": [ "op", "value", "path" ],
+      "properties": {
+        "op": { "const": "add" },
+        "value": true,
+        "path": {
+          "$ref": "https://schemas.intelligence.ai/std/rfc6901-jsonpointer/v1.json"
+        }
+      }
+    },
+    {
+      "type": "object",
+      "required": [ "op", "path" ],
+      "properties": {
+        "op": { "const": "remove" },
+        "path": {
+          "$ref": "https://schemas.intelligence.ai/std/rfc6901-jsonpointer/v1.json"
+        }
+      }
+    },
+    {
+      "type": "object",
+      "required": [ "op", "value", "path" ],
+      "properties": {
+        "op": { "const": "replace" },
+        "value": true,
+        "path": {
+          "$ref": "https://schemas.intelligence.ai/std/rfc6901-jsonpointer/v1.json"
+        }
+      }
+    },
+    {
+      "type": "object",
+      "required": [ "op", "from", "path" ],
+      "properties": {
+        "op": { "const": "copy" },
+        "from": {
+          "$ref": "https://schemas.intelligence.ai/std/rfc6901-jsonpointer/v1.json"
+        },
+        "path": {
+          "$ref": "https://schemas.intelligence.ai/std/rfc6901-jsonpointer/v1.json"
+        }
+      }
+    },
+    {
+      "type": "object",
+      "required": [ "op", "from", "path" ],
+      "properties": {
+        "op": { "const": "move" },
+        "from": {
+          "$ref": "https://schemas.intelligence.ai/std/rfc6901-jsonpointer/v1.json"
+        },
+        "path": {
+          "$ref": "https://schemas.intelligence.ai/std/rfc6901-jsonpointer/v1.json"
+        }
+      }
+    },
+    {
+      "type": "object",
+      "required": [ "op", "value", "path" ],
+      "properties": {
+        "op": { "const": "test" },
+        "value": true,
+        "path": {
+          "$ref": "https://schemas.intelligence.ai/std/rfc6901-jsonpointer/v1.json"
+        }
+      }
+    }
+  ]
+}
