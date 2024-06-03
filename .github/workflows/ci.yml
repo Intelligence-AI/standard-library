@@ -9,8 +9,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - uses: intelligence-ai/jsonschema@c2938fb83c67cce882e78dcdb93a820e8cf2783f
+      - uses: actions/checkout@v4
+      - uses: intelligence-ai/jsonschema@v0.1.2
       - run: jsonschema fmt schemas --check --verbose
       - run: jsonschema lint schemas --verbose
