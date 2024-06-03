@@ -11,8 +11,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Install JSON Schema CLI
-        run: |
-          /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/intelligence-ai/jsonschema/main/install -H 'Cache-Control: no-cache, no-store, must-revalidate')"
+      - uses: intelligence-ai/jsonschema@c2938fb83c67cce882e78dcdb93a820e8cf2783f
       - run: jsonschema fmt schemas --check --verbose
       - run: jsonschema lint schemas --verbose
