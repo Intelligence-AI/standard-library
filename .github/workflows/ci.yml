@@ -15,4 +15,4 @@ jobs:
         run: |
           /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/intelligence-ai/jsonschema/main/install -H 'Cache-Control: no-cache, no-store, must-revalidate')"
       - run: jsonschema fmt schemas --check --verbose
-      - run: jsonschema lint schemas
+      - run: jsonschema lint schemas --verbose
