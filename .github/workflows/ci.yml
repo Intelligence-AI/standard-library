@@ -1,0 +1,18 @@
+name: Standard Concepts
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Install JSON Schema CLI
+        run: |
+          /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/intelligence-ai/jsonschema/main/install -H 'Cache-Control: no-cache, no-store, must-revalidate')"
+      - run: jsonschema fmt schemas --check --verbose
+      - run: jsonschema lint schemas
