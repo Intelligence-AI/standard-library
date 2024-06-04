@@ -10,6 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: intelligence-ai/jsonschema@v0.1.4
+      - uses: intelligence-ai/jsonschema@v0.2.0
       - run: jsonschema fmt schemas --check --verbose
       - run: jsonschema lint schemas --verbose
