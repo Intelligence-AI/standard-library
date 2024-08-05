@@ -1,5 +1,5 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://schemas.intelligence.ai/std/iso/3166/alpha-2-country-code/assigned/v1.json",
   "title": "ISO 3166-1 alpha-2 country code (assigned)",
   "description": "A standard country code that represents a real country",

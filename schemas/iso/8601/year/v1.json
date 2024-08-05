@@ -1,5 +1,5 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://schemas.intelligence.ai/std/iso/8601/year/v1.json",
   "title": "ISO 8601 four-digit year (YYYY)",
   "description": "A positive year representation, where 0000 is not allowed",

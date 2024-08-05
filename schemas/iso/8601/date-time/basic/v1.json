@@ -1,5 +1,5 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://schemas.intelligence.ai/std/iso/8601/date-time/basic/v1.json",
   "title": "ISO 8601 date-time in Basic Format",
   "$comment": "https://www.iso.org/iso-8601-date-and-time-format.html",
