@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://schemas.intelligence.ai/std/rfc791-ipv4/v1.json",
+  "$id": "https://schemas.intelligence.ai/std/ietf/rfc791/ipv4/v1.json",
   "title": "RFC791 IPv4 address",
   "$comment": "https://datatracker.ietf.org/doc/html/rfc791",
   "type": "string",

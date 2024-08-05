@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://schemas.intelligence.ai/std/rfc6902-jsonpatch-operation/v1.json",
+  "$id": "https://schemas.intelligence.ai/std/ietf/rfc6902/jsonpatch-operation/v1.json",
   "title": "RFC 6902 JSON Patch operation",
   "$comment": "https://datatracker.ietf.org/doc/html/rfc6902/#section-4",
   "anyOf": [

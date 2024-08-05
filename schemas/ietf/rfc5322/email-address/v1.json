@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://schemas.intelligence.ai/std/rfc5322-email-address/v1.json",
+  "$id": "https://schemas.intelligence.ai/std/ietf/rfc5322/email-address/v1.json",
   "title": "RFC 5322 e-mail address",
   "$comment": "https://www.rfc-editor.org/rfc/rfc5322",
   "type": "string",
