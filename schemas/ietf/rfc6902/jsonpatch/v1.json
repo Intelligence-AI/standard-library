@@ -5,6 +5,6 @@
   "$comment": "https://datatracker.ietf.org/doc/html/rfc6902",
   "type": "array",
   "items": {
-    "$ref": "https://schemas.intelligence.ai/std/rfc6902-jsonpatch-operation/v1.json"
+    "$ref": "../jsonpatch-operation/v1.json"
   }
 }

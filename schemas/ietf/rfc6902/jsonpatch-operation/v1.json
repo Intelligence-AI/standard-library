@@ -16,7 +16,7 @@
           "const": "add"
         },
         "path": {
-          "$ref": "https://schemas.intelligence.ai/std/rfc6901-jsonpointer/v1.json"
+          "$ref": "../../rfc6901/jsonpointer/v1.json"
         },
         "value": true
       }
@@ -32,7 +32,7 @@
           "const": "remove"
         },
         "path": {
-          "$ref": "https://schemas.intelligence.ai/std/rfc6901-jsonpointer/v1.json"
+          "$ref": "../../rfc6901/jsonpointer/v1.json"
         }
       }
     },
@@ -48,7 +48,7 @@
           "const": "replace"
         },
         "path": {
-          "$ref": "https://schemas.intelligence.ai/std/rfc6901-jsonpointer/v1.json"
+          "$ref": "../../rfc6901/jsonpointer/v1.json"
         },
         "value": true
       }
@@ -62,13 +62,13 @@
       ],
       "properties": {
         "from": {
-          "$ref": "https://schemas.intelligence.ai/std/rfc6901-jsonpointer/v1.json"
+          "$ref": "../../rfc6901/jsonpointer/v1.json"
         },
         "op": {
           "const": "copy"
         },
         "path": {
-          "$ref": "https://schemas.intelligence.ai/std/rfc6901-jsonpointer/v1.json"
+          "$ref": "../../rfc6901/jsonpointer/v1.json"
         }
       }
     },
@@ -81,13 +81,13 @@
       ],
       "properties": {
         "from": {
-          "$ref": "https://schemas.intelligence.ai/std/rfc6901-jsonpointer/v1.json"
+          "$ref": "../../rfc6901/jsonpointer/v1.json"
         },
         "op": {
           "const": "move"
         },
         "path": {
-          "$ref": "https://schemas.intelligence.ai/std/rfc6901-jsonpointer/v1.json"
+          "$ref": "../../rfc6901/jsonpointer/v1.json"
         }
       }
     },
@@ -103,7 +103,7 @@
           "const": "test"
         },
         "path": {
-          "$ref": "https://schemas.intelligence.ai/std/rfc6901-jsonpointer/v1.json"
+          "$ref": "../../rfc6901/jsonpointer/v1.json"
         },
         "value": true
       }
